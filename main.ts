@@ -5,18 +5,11 @@ input.onButtonPressed(Button.A, function () {
         brightness += -16
     }
 })
-input.onButtonPressed(Button.AB, function () {
+input.onButtonPressed(Button.B, function () {
     if (colourSetting == 5) {
         colourSetting = 0
     } else {
         colourSetting += 1
-    }
-})
-input.onButtonPressed(Button.B, function () {
-    if (brightness >= 255) {
-        brightness = 255
-    } else {
-        brightness += 16
     }
 })
 let brightness = 0
